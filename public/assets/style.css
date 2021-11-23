@@ -1,0 +1,119 @@
+:root {
+    --color-primary: #333333;
+    --light: #FFFFFF;
+    --font-family: 'Space Mono', sans-serif;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+.container {
+    padding: 1rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    font-size: 1.5rem;
+    font-family: Inconsolata, sans-serif;
+    text-transform: uppercase;
+}
+
+main {
+    flex-grow: 1;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem;
+}
+
+main > * {
+    flex: 1 1 auto;
+}
+
+.image {
+    max-width: 360px;
+    width: 100%;
+}
+
+.text-content h1 {
+    color: #333333;
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.text-content p {
+    color: #4F4F4F;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    color: var(--light);
+    font-size: .75rem;
+    font-family: var(--font-family);;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    padding: .75rem 1.25rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: #4d4c4c;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row;
+    }
+
+    .image {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        padding: 1rem;
+    }
+
+    main {
+        margin: 2rem 1rem;
+    }
+
+    .text-content h1 {
+        font-size: 2.5rem;
+        margin: .75rem 0;
+    }
+
+    .page-title, .text-content p {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: .75rem;
+    }
+}
