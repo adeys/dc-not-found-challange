@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://dc-not-found-challenge.onrender.com/">
+    <a href="https://dc-not-found-challenge.onrender.com/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/adeys/dc-not-found-challenge">
+    <a href="https://github.com/adeys/dc-not-found-challenge" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
