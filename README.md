@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/adeys/dc-not-found-challenge/master/.github/images/screenshot.png)
+![screenshot](/screenshots/screenshot.png)
 
 ### Built With
 
